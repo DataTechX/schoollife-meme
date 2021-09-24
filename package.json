@@ -1,7 +1,7 @@
 {
   "name": "lynny-meme",
   "version": "1.1.1",
-  "description": "afwaef",
+  "description": "Random memes from reddit",
   "main": "index.js",
   "engines": {
     "node": ">=7.8.0"
