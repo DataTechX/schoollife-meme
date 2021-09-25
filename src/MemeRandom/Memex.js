@@ -2,7 +2,7 @@ const axios = require('axios');
 const userAgents = require('../../tools/user-agents.json');
 
 async function Memex() {
-    let tag = ["meme", "dankmemes", "thaimeme", "TopInternationalMemes", "Anarcho_Capitalism"]
+    let tag = ["meme", "dankmemes", "TopInternationalMemes", "Anarcho_Capitalism"]
     tag = tag[Math.floor(Math.random() * tag.length)]
 
     let json = await axios(`https://www.reddit.com/r/${tag}/random/.json`, {
@@ -20,7 +20,7 @@ async function Memex() {
         embed: {
             color: "0x2F3136",
             image: { url: json.is_video ? "https://freepikpsd.com/wp-content/uploads/2019/10/no-image-png-5-Transparent-Images.png" : json.url},
-            description: json.description,
+            title: json.title,
             footer: {
                 text: "มีมสุ่มจากทั่วโลกผ่านใน REDDIT.COM | Power By: LynnTeam",
                 icon_url: "https://discord.com/assets/516bf0fae97628e22a3a3ec810a8c4ba.svg" 
