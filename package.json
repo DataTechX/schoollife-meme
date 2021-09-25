@@ -1,14 +1,16 @@
 {
   "name": "lynny-meme",
-  "version": "1.1.1",
-  "description": "Random memes from reddit",
+  "version": "1.0.0",
+  "description": "มีมสุ่มจาก Reddit",
   "main": "index.js",
   "engines": {
     "node": ">=7.8.0"
   },
   "files": [
     "index.js",
-    "README.md"
+    "README.md",
+    "src/MemeRandom/Memex.js",
+    "tools/user-agents.json"
   ],
     "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -19,9 +21,10 @@
     "url": "git+https://github.com/JKTheRipperTH/schoollife-meme.git"
   },
   "keywords": [
-    "meme"
+    "memeEN",
+    "memeTH"
   ],
-  "author": "𝐀𝐥𝐨𝐧𝐞#8475",
+  "author": "𝐀𝐥𝐨𝐧𝐞#8475 , [SEVEN]#6218, Solart#6590, LynnTeam",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/JKTheRipperTH/schoollife-meme/issues"
