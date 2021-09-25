@@ -11,7 +11,7 @@
 ```js
 const discord = require('discord.js')
 const client = new discord.Client()
-const random = require('lynny-meme')
+const random = require('lynny-meme').MemeRandom
 
 let prefix = "!";
 
